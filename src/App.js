@@ -64,6 +64,7 @@ class App extends Component {
           <h1 className="heading">Simple Calculator</h1>
           <Result result = {this.state.result}/>
           <Keypad onClick={this.onClick}/>
+          <p className="footer">Crafted with ♥ by <a href="https://www.linkedin.com/in/vivek-mittal/">Vivek Mittal</a></p>
         </div>
       </div>
     )
